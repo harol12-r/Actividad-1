@@ -5,8 +5,8 @@ int main() {
    ptr = &vocales[0];
    for (int i = 0; i < 5; i++)
    {
-       printf("vocales[%d] %c\n", i, vocales[i]);
-       printf("%d\n", *(ptr++));
+       printf("vocales[%d] %c ", i, vocales[i]);
+       printf("%c\n", *(ptr++));
    }
    return 0;
 }
